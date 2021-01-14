@@ -5,9 +5,6 @@ import android.arch.persistence.room.Room
 import android.arch.persistence.room.RoomDatabase
 import android.content.Context
 
-/**
- * Created by ThinkSoft on 19/12/2017.
- */
 @Database(entities = [(Contact::class)], version = 1, exportSchema = false)
 abstract class ContactDb : RoomDatabase() {
     companion object {

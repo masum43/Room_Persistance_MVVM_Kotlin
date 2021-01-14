@@ -7,9 +7,7 @@ import android.os.AsyncTask
 import com.livedata.with.roomdb.marc.oliva.roomdbwithlivedata.data.Contact
 import com.livedata.with.roomdb.marc.oliva.roomdbwithlivedata.data.ContactDb
 
-/**
- * Created by ThinkSoft on 21/12/2017.
- */
+
 class ContactListViewModel(application: Application) : AndroidViewModel(application) {
 
     var listContact: LiveData<List<Contact>>

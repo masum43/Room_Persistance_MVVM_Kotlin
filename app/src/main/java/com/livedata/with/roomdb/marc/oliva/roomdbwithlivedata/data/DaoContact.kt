@@ -3,9 +3,6 @@ package com.livedata.with.roomdb.marc.oliva.roomdbwithlivedata.data
 import android.arch.lifecycle.LiveData
 import android.arch.persistence.room.*
 
-/**
- * Created by ThinkSoft on 19/12/2017.
- */
 @Dao
 interface DaoContact {
     @Query("select * from contacts")
